@@ -2,12 +2,12 @@ body {
     margin: 0;
     padding: 0;
 }
-#nav {
+.nav {
     height: 22vh;
     width: 100%;
 }
 
-#mainlist {
+.mainlist {
     list-style: none;
     margin-left: 1070px;
 }
@@ -17,12 +17,12 @@ li {
     padding: 8px;
 }
 
-#mg {
+.mg {
     height: 24px;
     width: 24px;
 }
 
-#google {
+.google {
     height: 130px;
     width: 310px;
     margin-left: 500px;
@@ -48,14 +48,14 @@ button {
     border: 1px solid #e4e4e4;
 }
 
-#footer {
+.footer {
     height: 45px;
     width: 1363px;
     background-color: #f2f2f2;
     margin-top: 280px;
 }
 
-#secondlist {
+.secondlist {
     list-style: none;
     margin-left: -25px;
     color: #6f6f6f;
