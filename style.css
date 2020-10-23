@@ -35,7 +35,6 @@ li {
   padding: 1px;
   margin-left: 450px;
   border: 1px solid #e5e5e5;
-
   box-shadow: 0 3px 0 0 #e5e5e5;
 }
 
@@ -84,6 +83,7 @@ a {
   background-color: #f2f2f2;
   border: 1px solid #e5e5e5;
 }
+
 ul {
   list-style-type: none;
 }
