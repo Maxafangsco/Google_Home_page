@@ -3,12 +3,12 @@ body {
   padding: 0;
 }
 
-#nav {
+.nav {
   height: 22vh;
   width: 100%;
 }
 
-#mainlist {
+.mainlist {
   list-style: none;
   margin-left: 1070px;
 }
@@ -18,46 +18,77 @@ li {
   padding: 8px;
 }
 
-#mg {
+.mg {
   height: 24px;
   width: 24px;
 }
 
-#google {
+.google {
   height: 130px;
   width: 310px;
   margin-left: 500px;
 }
 
-input {
-  height: 40px;
+.st {
+  height: 30px;
   width: 500px;
-  padding: 15px;
-  margin-left: 370px;
+  padding: 1px;
+  margin-left: 450px;
   border: 1px solid #e5e5e5;
-  border-radius: 3%;
+
   box-shadow: 0 3px 0 0 #e5e5e5;
 }
 
-button {
-  height: 38px;
-  width: 140px;
-  background-color: #f6f6f6;
-  font-size: 15px;
+.mic {
+  position: absolute;
+  margin-top: 5px;
+  height: 28px;
+  width: auto;
+}
+
+.g1,
+.g2 {
+  font-size: 20px;
   color: #222;
-  margin-top: 30px;
-  border: 1px solid #e4e4e4;
 }
 
-#footer {
+.g1 {
+  margin-top: 40px;
+  margin-left: 530px;
+}
+
+.g2 {
+  margin-top: -23px;
+  margin-left: 700px;
+}
+
+a {
+  display: block;
+}
+
+.footer {
   height: 45px;
-  width: 1363px;
+  width: 1410px;
   background-color: #f2f2f2;
-  margin-top: 280px;
+  margin-top: 300px;
+  color: #6f6f6f;
+  padding-left: 20px;
+  padding-top: 5px;
 }
 
-#secondlist {
+.secondlist {
   list-style: none;
-  margin-left: -25px;
   color: #6f6f6f;
+  height: 45px;
+  width: 1430px;
+  background-color: #f2f2f2;
+  border: 1px solid #e5e5e5;
+}
+ul {
+  list-style-type: none;
+}
+
+.thirdlist {
+  margin-left: 800px;
+  bottom: 0;
 }
